@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="txtDate">Date</string>
+    <string name="txtCity">City</string>
+    <string name="txtTemp">0°C</string>
+    <string name="txtMaxTemp">Max</string>
+    <string name="txtMinTemp">Min</string>
+    <string name="txtTempFL">Feels like</string>
+    <string name="txtDelete" />
+    <string name="txtPressure">Pressure</string>
+    <string name="txtHumidity">Humidity</string>
+    <string name="txtSeaLevel">Sea Level</string>
+    <string name="txtGroundLevel">Ground Level</string>
+</resources>
