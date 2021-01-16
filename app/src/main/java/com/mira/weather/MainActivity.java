@@ -77,21 +77,21 @@ public class MainActivity extends AppCompatActivity {
 
                     // description, pressure, humidity, city, icon
                     String description=object.getString("description");
-                  //  String pressure=object.getString("pressure");
+                    String pressure=object.getString("pressure");
                     String humidity=object.getString("humidity");
                     String visibility=object.getString("visibility");
                     String city=response.getString("name");
                     String icon=object.getString("icon");
 
                     txtCity.setText(city);
-                    txtTemp.setText(temp+"°C");
-                    txtMinTemp.setText("Min: "+tempMin+"°C");
-                    txtMaxTemp.setText("Max: "+tempMax+"°C");
-                    txtTempFL.setText("Feels like: "+tempFL+"°C");
+                    txtTemp.setText(temp);
+                    txtMinTemp.setText(tempMin);
+                    txtMaxTemp.setText(tempMax);
+                    txtTempFL.setText(tempFL);
                     txtDescription.setText(description);
-                   // txtPressure.setText("Pressure: "+pressure+" mbar");
-                    txtHumidity.setText("Humidity: "+humidity+"%");
-                    txtVisibility.setText("Visibility: "+visibility+" m");
+                    txtPressure.setText(pressure);
+                    txtHumidity.setText(humidity);
+                    txtVisibility.setText(visibility);
 
                     Calendar calendar=Calendar.getInstance();
                     SimpleDateFormat simpleDateFormat=new SimpleDateFormat("EEEE, MMMM dd");
