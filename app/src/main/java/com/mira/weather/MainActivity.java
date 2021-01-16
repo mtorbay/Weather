@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     txtDate.setText(formatted_date);
 
                     //image
-                    String imageUri="http://openweathermap.org/img/w/"+ icon+"png";
+                    String imageUri="http://openweathermap.org/img/w/"+ icon+".png";
                     imgIcon=findViewById(R.id.imgIcon);
                     Uri myUri=Uri.parse(imageUri);
                     Picasso.with(MainActivity.this).load(myUri).resize(200, 200).into(imgIcon);
