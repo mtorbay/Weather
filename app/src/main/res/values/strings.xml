@@ -11,4 +11,7 @@
     <string name="txtHumidity">Humidity</string>
     <string name="txtSeaLevel">Sea Level</string>
     <string name="txtGroundLevel">Ground Level</string>
+    <string name="txtDescription">Description</string>
+    <string name="txtVisibility">Visibility</string>
+    <string name="imgIcon">Icon</string>
 </resources>

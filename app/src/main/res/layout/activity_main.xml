@@ -15,7 +15,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.35000002"
-        app:srcCompat="@drawable/defaultweather" />
+        app:srcCompat="@drawable/defaultweather"
+        android:contentDescription="@string/imgIcon" />
 
     <TextView
         android:id="@+id/txtDate"
@@ -98,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTempFL"
-        app:layout_constraintVertical_bias="0.24000001" />
+        app:layout_constraintVertical_bias="0.238" />
 
     <TextView
         android:id="@+id/txtHumidity"
@@ -110,28 +111,28 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPressure"
-        app:layout_constraintVertical_bias="0.22000003" />
+        app:layout_constraintVertical_bias="0.164" />
 
     <TextView
-        android:id="@+id/txtSeaLevel"
+        android:id="@+id/txtDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtSeaLevel"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/txtDescription"
+        app:layout_constraintBottom_toTopOf="@+id/txtTemp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHumidity" />
+        app:layout_constraintTop_toBottomOf="@+id/imgIcon"
+        app:layout_constraintVertical_bias="0.26999998" />
 
     <TextView
-        android:id="@+id/txtGroundLevel"
+        android:id="@+id/txtVisibility"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtGroundLevel"
+        android:text="@string/txtVisibility"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.778"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHumidity" />
+        app:layout_constraintTop_toBottomOf="@+id/txtHumidity"
+        app:layout_constraintVertical_bias="0.238" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
